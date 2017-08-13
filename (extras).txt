@@ -1,0 +1,5 @@
+favicon.png
+html5-badge.png
+LinBiolinum_R.ttf
+LinBiolinum_RI.ttf
+LinBiolinum_RB.ttf
