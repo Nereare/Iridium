@@ -1,1 +1,12 @@
-/* Hello */
+header { text-align: center; }
+header .image { margin: 5em; }
+header .image img { border-radius: 0.5em; }
+
+nav { text-align: center; }
+nav ul li {
+  list-style: none;
+  display: inline;
+  margin: 0 1.5em;
+}
+nav ul li span { display: none; }
+nav .download span { display: none; }
