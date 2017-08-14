@@ -30,3 +30,5 @@ A website theme for Inform 7 projects.
 ## License
 
 [![MIT License](http://i.imgur.com/Ze3dFob.png "MIT License")](https://opensource.org/licenses/MIT)
+
+This project and it's favicon are licensed under the [MIT License](https://opensource.org/licenses/MIT).
