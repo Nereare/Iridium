@@ -1,68 +1,48 @@
-<!--
-This file is part of Silver Template.
-
-Silver Template is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-Silver Template is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with Silver Template.  If not, see <http://www.gnu.org/licenses/>.
--->
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 	<head>
 		<title>[TITLE] by [AUTHOR]</title>
-		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-		<meta name="author" content="Igor Padoim" />
-		<meta charset="ISO-8859-1" />
-		<link type="text/css" rel="stylesheet" href="style.css" />
-		<link type="image/x-icon" rel="icon" href="favicon.png" />
+		<link rel="stylesheet" type="text/css" href="raleway.css" />
+		<link rel="stylesheet" type="text/css" href="normalize.css" />
+		<link rel="stylesheet" type="text/css" href="skeleton.css" />
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<link rel="icon" type="image/png" href="favicon.png" />
 	</head>
-	
+
 	<body>
-		<div class="center" id="header">
-			<h1><a href="index.html">[TITLE]</a></h1>
-			<p id="subtitle">By [AUTHOR], Release [RELEASE] - [YEAR]</p>
-		</div>
 
-		<br />
+		<div class="container">
 
-		<div class="center" id="navbar">
-			<div id="navimg">
-				[COVER]
-			</div>
-			<div id="navdown">
-				<ul class="nav">
-					<li>[DOWNLOAD]</li>
-				</ul>
-			</div>
-			<div id="navlink">
-				<ul class="nav">
+			<header class="row">
+				<div id="navimg">
+					[COVER]
+				</div>
+				<h1><a href="index.html">[TITLE]</a></h1>
+				<p>By [AUTHOR], Release [RELEASE] - [YEAR]</p>
+			</header>
+
+			<nav class="row">
+				<ul>
 					[AUXILIARY]
 				</ul>
-			</div>
-		</div>
+				<p>
+					[DOWNLOAD]
+				</p>
+			</nav>
 
-		<br />
+			<main class="row">
+				<p>[BLURB]</p>
+				<p>
+					[TITLE] was created with <a href="http://inform7.com/">Inform</a> and
+					has IFID [IFID].
+				</p>
+			</main>
 
-		<div class="center" id="main">
-			<p>[BLURB]</p>
-			<p>[TITLE] was created with <a href="http://inform7.com/">Inform</a> and has IFID [IFID]. To play a work like this one, you need an interpreter program: many are available, among them <a href="http://www.logicalshift.demon.co.uk/mac/zoom.html">Zoom for Mac OS X</a> and for <a href="http://www.logicalshift.demon.co.uk/unix/zoom/">Unix</a>; <a href="http://freespace.virgin.net/davidk.kinder/frotz.html">Windows Frotz</a> or <a href="http://freespace.virgin.net/davidk.kinder/glulxe.html">Windows Glulxe</a> for Windows. Or you can play without downloading anything by following the 'Play In-Browser' link, using the Parchment interpreter. You'll need to have Javascript enabled on your web browser.</p>
-		</div>
-		<br />
-		<div class="center" id="footer">
-			<p class="footer">
-				Silver &copy;2012 Igor Padoim. <a rel="license" href="http://www.gnu.org/licenses/gpl-3.0.txt">GNU General Public License v.3</a>
-				<br /><br />
-				<a href="http://html5.validator.nu/"><img src="html5-badge.png" alt="Valid HTML5" /></a>
-			</p>
+			<footer class="row">
+				Iridium &copy; 2017 Igor Padoim
+			</footer>
+
 		</div>
 
 	</body>
