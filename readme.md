@@ -2,7 +2,6 @@
 
 [![GitHub release](https://img.shields.io/github/release/Nereare/Iridium.svg)](https://github.com/Nereare/Iridium)
 [![License](https://img.shields.io/github/license/Nereare/Iridium.svg)](https://github.com/Nereare/Iridium)
-[![Build Status](https://travis-ci.org/Nereare/Iridium.svg?branch=master)](https://travis-ci.org/Nereare/Iridium)
 [![Code Climate](https://codeclimate.com/github/Nereare/Iridium/badges/gpa.svg)](https://github.com/Nereare/Iridium)
 
 A website theme for Inform 7 projects.
